@@ -1,0 +1,50 @@
+{
+  "id": "/#/",
+  "start_url": "/#/",
+  "scope": "/",
+  "name": "Story Web App",
+  "short_name": "Storia App",
+  "description": "Aplikasi sosial media khusus untuk murid dicoding",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "images/logo-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Story",
+      "short_name": "Tambah",
+      "description": "Membuat story baru",
+      "url": "/#/add",
+      "icons": [
+        {
+          "src": "images/add-icon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshots/story-app-home(mobile).png",
+      "sizes": "486x640",
+      "type": "image/png",
+      "label": "Tampilan Mobile",
+      "platform": "narrow"
+    },
+    {
+      "src": "images/screenshots/story-app-home.png",
+      "sizes": "1919x1001",
+      "type": "image/png",
+      "label": "Tampilan Desktop",
+      "platform": "wide"
+    }
+  ]
+}
